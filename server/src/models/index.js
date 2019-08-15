@@ -21,8 +21,6 @@ fs
     db[model.name] = model
   })
 
-  console.log(db)
-
   db.sequelize = sequelize
   db.Sequelize = Sequelize
     
